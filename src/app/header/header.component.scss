@@ -1,0 +1,42 @@
+
+
+.navbar{
+    transform: translateY(-100%);
+    animation: bounceInDown ease-in-out 0.4s forwards;
+}
+
+////Animations
+
+  @-webkit-keyframes bounceInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+     }
+     60% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+     80% {
+        transform: translateY(-10%);
+     }
+     100% {
+        transform: translateY(0);
+     }
+ }
+ 
+ @keyframes bounceInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-100%);
+    }
+    60% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+    80% {
+       transform: translateY(-10%);
+    }
+    100% {
+       transform: translateY(0);
+    }
+ }

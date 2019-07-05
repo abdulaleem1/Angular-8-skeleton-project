@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Angular8StarterKit</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    .splash-screen {
+      background-color: #1976d2;
+      background: linear-gradient(145deg, #0d47a1, #42a5f5);
+      color: #fff;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      animation: fade-in ease 1s forwards;
+    }
+
+    .splash-screen img {
+      width: 100px;
+      left: calc(50% - 50px);
+      top: calc(50% - 50px);
+      position: absolute;
+      opacity: 0;
+      animation: fadeinout linear 1.5s;
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+
+    }
+
+
+    /* Animations */
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes fadeinout {
+
+      0%,
+      100% {
+        opacity: 0.3;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeinout {
+
+      0%,
+      100% {
+        opacity: 0.3;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <app-root>
+    <div class="splash-screen">
+      <img src="assets/images/angular-logo.svg" />
+    </div>
+  </app-root>
+</body>
+
+</html>

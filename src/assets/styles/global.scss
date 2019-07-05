@@ -1,0 +1,13 @@
+
+
+html,body{
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.main-content{
+    width: calc(100% - 200px);
+    position: absolute;
+    right: 0;
+}
