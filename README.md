@@ -1,5 +1,9 @@
 # Angular8StarterKit
 
+Demo site: https://abdulaleem1.github.io/Angular-8-skeleton-project/
+
+The application demonstrates how to preload the data before angular is bootstrapped. The application can be used to get a headstart in seting up your angular 8 application.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
 ## Development server
