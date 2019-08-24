@@ -3,7 +3,6 @@
 <app-sidebar></app-sidebar>
 <div class="container-fluid main-content"
   [ngClass]="{'main-content-expanded': (sidebar? sidebar.sidebarState === 'in' : false)}">
-  <h1>Content</h1>
   <router-outlet></router-outlet>
 
 </div>

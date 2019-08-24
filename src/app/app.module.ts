@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeaderComponent } from './header/header.component';
 import { ConfigService } from './services/config.service';
-import { resolve } from 'dns';
+
+import * as $ from 'jquery';
 
 @NgModule({
   declarations: [

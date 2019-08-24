@@ -2,4 +2,40 @@
     min-height: 100%;
     width: 200px;
     position: fixed;
+    background: #4b5456;
+    animation: slideRight ease-in-out 0.4s forwards;
+    padding-top: 30px;
+
+    .sidebar-item{
+        padding: 10px 30px;
+        color: white;
+        cursor: pointer;
+    }
 }
+
+
+////Animations
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceInRight {
+    0% {
+       transform: translateX(-100%);
+    }
+    60% {
+       transform: translateX(0);
+    }
+    80% {
+       transform: translateX(-10%);
+    }
+    100% {
+       transform: translateX(0);
+    }
+ }
